@@ -12,7 +12,7 @@ ApplicationStop failed with exit code 1
 The overall deployment failed because too many individual instances failed deployment, too few healthy instances are available for deployment, or some instances in your deployment group are experiencing problems.
 ```
 
-===========================
+===================================
 
 EC2 script on creation to install the CodeDeploy Agent:
 
