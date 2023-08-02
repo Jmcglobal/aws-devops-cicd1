@@ -1,7 +1,9 @@
 #!/bin/bash
-apt-get update -y
+set -e 
+
+sudo apt-get update -y
 #download node and npm
-apt install npm nodejs -y
+sudo apt install npm nodejs -y
 
 #create our working directory if it doesnt exist
 DIR="/home/ubuntu/express-app"
