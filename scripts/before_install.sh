@@ -8,7 +8,7 @@ sudo apt install npm nodejs -y
 #create our working directory if it doesnt exist
 DIR="/home/ubuntu/express-app"
 if [ -d "$DIR" ]; then
-  rm -rf express-app && mkdir ${DIR}
+  rm -rf ${DIR} && mkdir ${DIR}
 else
   mkdir ${DIR}
 fi
